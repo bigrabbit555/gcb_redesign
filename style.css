@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+    /* background-image: url('background.jpeg'); */
+    color: white;
+    font-size: 1.3em;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    margin: 0;
+}
+
+header {
+    margin-top: 0;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav a {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: .2em;
+    margin-top: .3em;
+}
+
+.content-sub-header {
+    margin-bottom: 0px;
+}
+
+ul {
+    margin-top: .5em;
+}
+
+#upper {
+    /* max-height: ; */
+    object-fit: cover;
+    width: 100%;
+    max-height: 450px;
+    min-height: 200px;
+}
+
+#content {
+    max-width: 800px;
+    margin: auto;
+    padding: 0 2em 0 2em;
+}
