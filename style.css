@@ -19,6 +19,11 @@ a {
     color: inherit;
 }
 
+a:hover {
+    color: #fce45b;
+    text-decoration: underline;
+}
+
 nav a {
     padding-left: 2em;
     padding-right: 2em;
@@ -51,4 +56,8 @@ ul {
     max-width: 800px;
     margin: auto;
     padding: 0 2em 0 2em;
+}
+
+#footer {
+    padding-bottom: 2em;
 }
